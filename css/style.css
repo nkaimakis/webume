@@ -985,15 +985,15 @@ margin-left: 0px;
     top: 96px;
 }
 @media (max-width:1200px) {#graph_6:after{
-    left:16px;
+    left:31px;
 	}
 }
 @media (max-width:768px) {#graph_6:after{
-    left:74px;
+    left:87px;
 	}
 }
 @media (max-width:400px) {#graph_6:after{
-    left: 59px;
+    left: 72px;
 	top: 72px;
 	    font-size: 12px;
 	}
