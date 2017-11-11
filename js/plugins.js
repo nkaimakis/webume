@@ -4,7 +4,7 @@ $(document).ready(function () {
 	'use strict';
 	$('#graph_1,#graph_2,#graph_3,#graph_4,#graph_5,#graph_6').circliful();
 
-	var mixer = mixitup('.pro_image');
+	//var mixer = mixitup('.pro_image');
 	$("li a").click(function(){$('html, body').animate({scrollTop:$("#"+$(this).data('value')).offset().top},1500);});
 	$(".nav li:first-of-type").click(function(){$('html, body').animate({scrollTop:0},500);});
 	$('#ski').mouseover(function(){

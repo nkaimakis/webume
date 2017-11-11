@@ -579,7 +579,7 @@ float: left;
 	margin-bottom: 10px;
 }
 }
-.progress-bar-success {
+/*.progress-bar-success {
 	background-color: #00a3ff;
 }
 .progress {
@@ -650,7 +650,7 @@ float: left;
   } 100% { 
    width: 90%;
   }
-}
+}*/
 .software p:first-of-type {
 	display: inline-block;
 	width: 89%;
@@ -754,18 +754,6 @@ float: left;
    opacity: 1;
   }
 }
-.software .glyphicon:nth-of-type(2):after {
-    content: '70%';
-}	
-.software .glyphicon:nth-of-type(3):after {
-    content: '70%';
-}	
-.software .glyphicon:nth-of-type(4):after {
-    content: '85%';
-}	
-.software .glyphicon:last-of-type:after {
-    content: '90%';
-}	
 .recognition {
 	padding-left: 50px;
 }
