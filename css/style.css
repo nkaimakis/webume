@@ -603,7 +603,7 @@ float: left;
    width: 90%;
   }
 }
-.progress .sket {
+.progress .sketch {
 	width: 65%;
 	animation-name: sec_pro;
 	animation-duration: 3s;
@@ -615,7 +615,7 @@ float: left;
    width: 65%;
   }
 }
-.progress .Pho {
+.progress .js_libraries {
 	width: 80%;
 	animation-name: thi_pro;
 	animation-duration: 3s;
@@ -627,7 +627,7 @@ float: left;
    width: 80%;
   }
 }
-.progress .ftp {
+.progress .invision {
 	width: 90%;
 	animation-name: for_pro;
 	animation-duration: 3s;
@@ -639,7 +639,7 @@ float: left;
    width: 90%;
   }
 }
-.progress .git{
+.progress .git {
 	width: 90%;
 	animation-name: fiv_pro;
 	animation-duration: 3s;
@@ -743,7 +743,7 @@ float: left;
     top: 2px;
 }
 .software .glyphicon:first-of-type:after {
-    content: '90%';
+    content: '65%';
 	animation-name: fade;
 	animation-duration: 3s;
 }	
@@ -755,13 +755,13 @@ float: left;
   }
 }
 .software .glyphicon:nth-of-type(2):after {
-    content: '65%';
+    content: '70%';
 }	
 .software .glyphicon:nth-of-type(3):after {
-    content: '80%';
+    content: '70%';
 }	
 .software .glyphicon:nth-of-type(4):after {
-    content: '90%';
+    content: '85%';
 }	
 .software .glyphicon:last-of-type:after {
     content: '90%';
@@ -857,7 +857,7 @@ margin-left: 0px;
     left: 87px;
     font-size: 18px;
     font-weight: bold;
-    top: 96px;
+    top: 78px;
 }
 @media (max-width:1200px) {#graph_1:after{
     left:31px;
@@ -870,7 +870,7 @@ margin-left: 0px;
 @media (max-width:400px) {#graph_1:after{
     left:72px;
 	top: 72px;
-	    font-size: 12px;
+	font-size: 12px;
 	}
 }
 #graph_2:after {
@@ -882,7 +882,7 @@ margin-left: 0px;
     left: 87px;
     font-size: 18px;
     font-weight: bold;
-    top: 96px;
+    top: 78px;
 }
 @media (max-width:1200px) {#graph_2:after{
     left:31px;
@@ -907,7 +907,7 @@ margin-left: 0px;
     left: 77px;
     font-size: 18px;
     font-weight: bold;
-    top: 96px;
+    top: 78px;
 }
 @media (max-width:1200px) {#graph_3:after{
     left:24px;
@@ -932,7 +932,7 @@ margin-left: 0px;
     left: 63px;
     font-size: 18px;
     font-weight: bold;
-    top: 94px;
+    top: 78px;
 }
 @media (max-width:1200px) {#graph_4:after{
     left:8px;
@@ -957,7 +957,7 @@ margin-left: 0px;
     left: 65px;
     font-size: 18px;
     font-weight: bold;
-    top: 96px;
+    top: 78px;
 }
 @media (max-width:1200px) {#graph_5:after{
     left:11px;
@@ -982,7 +982,7 @@ margin-left: 0px;
     left: 87px;
     font-size: 18px;
     font-weight: bold;
-    top: 96px;
+    top: 78px;
 }
 @media (max-width:1200px) {#graph_6:after{
     left:31px;
