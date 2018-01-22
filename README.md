@@ -1,6 +1,5 @@
-# nkaimakis.github.io
-Online resume website
+# personal portfolio
 
-First interactive resume website created for myself. Looking to continue building on the nkaimakis.com domain
+This is a personal project to create a static resume website! It's constantly a work in progress, so reach out if you have any thoughts or advice!
 
-Let me know what you think, and if you'd like me to develop for you!
+As a student at the University of Southern California, I am in the process of developing my skillset so that I can start my own company.
