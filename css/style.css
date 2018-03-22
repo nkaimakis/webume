@@ -63,7 +63,7 @@ font-family: 'Rajdhani', sans-serif;
 	margin-left: 0;
 	}
 }
-.navbar-toggle 
+.navbar-toggle
 {
 	margin-right: 0;
 }
@@ -191,7 +191,7 @@ font-family: 'Raleway', sans-serif;
 	display: inline;
 	font-size: 16px;
 	font-weight: bold;
-	
+
 }
 .download:hover {
 	cursor: pointer;
@@ -241,7 +241,7 @@ font-family: 'Raleway', sans-serif;
     transition: all 0.4s ease;
     margin-top: 25px;
     font-size: 10px;
-} 
+}
 .githup:hover {
 	background: black;
 	color: #fff;
@@ -597,9 +597,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes firs_pro {
-  0%{ 
+  0%{
     width: 20%;
-  } 100% { 
+  } 100% {
    width: 90%;
   }
 }
@@ -609,9 +609,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes sec_pro {
-  0%{ 
+  0%{
     width: 20%;
-  } 100% { 
+  } 100% {
    width: 65%;
   }
 }
@@ -621,9 +621,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes thi_pro {
-  0%{ 
+  0%{
     width: 20%;
-  } 100% { 
+  } 100% {
    width: 80%;
   }
 }
@@ -633,9 +633,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes for_pro {
-  0%{ 
+  0%{
     width: 20%;
-  } 100% { 
+  } 100% {
    width: 90%;
   }
 }
@@ -645,9 +645,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes fiv_pro {
-  0%{ 
+  0%{
     width: 20%;
-  } 100% { 
+  } 100% {
    width: 90%;
   }
 }*/
@@ -658,9 +658,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes first {
-  0%{ 
+  0%{
     width: 20%;
-  }  100% { 
+  }  100% {
    width: 89%;
   }
 }
@@ -675,9 +675,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes sec {
-  0%{ 
+  0%{
     width: 20%;
-  }  100% { 
+  }  100% {
    width: 64%;
   }
 }
@@ -688,9 +688,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes thir {
-  0%{ 
+  0%{
     width: 20%;
-  }  100% { 
+  }  100% {
    width: 79%;
   }
 }
@@ -701,9 +701,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes for {
-  0%{ 
+  0%{
     width: 20%;
-  }  100% { 
+  }  100% {
    width: 89%;
   }
 }
@@ -718,9 +718,9 @@ float: left;
 	animation-duration: 3s;
 }
 @keyframes fiv {
-  0%{ 
+  0%{
     width: 20%;
-  }  100% { 
+  }  100% {
    width: 89%;
   }
 }
@@ -746,11 +746,11 @@ float: left;
     content: '65%';
 	animation-name: fade;
 	animation-duration: 3s;
-}	
+}
 @keyframes fade {
-  0%{ 
+  0%{
     opacity: 0.1;
-  }  100% { 
+  }  100% {
    opacity: 1;
   }
 }
@@ -963,7 +963,7 @@ margin-left: 0px;
 }
 #graph_6:after {
 	position: absolute;
-    content: 'SQL';
+    content: 'Swift';
     color: #FFF;
     width: 50px;
     height: 50px;
@@ -1034,7 +1034,7 @@ margin-left: 0px;
 	margin-bottom: 88px;
 }
 .other .servic_bac .row{
-	
+
 	margin-top: 20px;
 }
 .other .servic_bac .my_act img{
@@ -1192,7 +1192,7 @@ float: none;
     position: absolute;
     right: 0;
     top: 0;
-	
+
 }
 @media (max-width:768px) {.my_edu:after{
 	display: none;
@@ -1512,7 +1512,7 @@ margin: auto;}
 .project_desc h4 {
 	margin-top: 0;
 	text-transform: uppercase;
-	text-align: center;	
+	text-align: center;
 	color: #02172a;
 	padding-top: 10px;
 }
@@ -1522,7 +1522,7 @@ font-size: 18px;
 }
 .project_desc p {
 width: 100%;
-text-align: center;	
+text-align: center;
 		color: #fff;
 }
 @media (max-width:1200px) {.project_desc p{
@@ -1717,7 +1717,7 @@ font-size: 14px;
 	border: 2px solid #00a3ff;
 }
 .bottom .btn {
-	
+
     display: block;
     width: 106px;
     height: 43px;
@@ -1792,10 +1792,10 @@ footer .foot p span{
   50% { -webkit-transform: scale(1.0) }
 }
 @keyframes sk-bounce {
-  0%, 100% { 
+  0%, 100% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 50% { 
+  } 50% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
