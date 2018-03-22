@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<!-- fix for IE-->
@@ -19,29 +20,39 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/typed.min.js"></script>
-	<script src="js/wow.js"> </script>
+	<script src="js/wow.js">
+	</script>
 	<script src="js/jquery.circliful.min.js"></script>
 	<script src="js/plugins.js"></script>
-	<script> new WOW().init();</script>
 	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		new WOW().init();
+	</script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
 		ga('create', 'UA-100344669-1', 'auto');
 		ga('send', 'pageview');
-
 	</script>
 	<!-- Fix for HTML5 IE-->
-                                        <!--[if lt IE 9]>
+	<!--[if lt IE 9]>
         <script src ="js/html5shiv.min.js"></script>
         <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
 	<!-- Nav bar-->
-	<nav class="navbar navbar-default" >
+	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -55,467 +66,325 @@
 			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active" id="se_hom"><a href="#" data-value="hom">Home<span class="sr-only">(current)</span></a> </li>
-<!--     					<li id="se_ski"><a href="#" data-value="ski">my skills</a></li>
+					<!--     					<li id="se_ski"><a href="#" data-value="ski">my skills</a></li>
     				  <li id="se_exp"><a href="#" data-value="exp">experience</a></li>
     				  <li id="se_pro"><a href="#" data-value="pro">projects</a></li> -->
-    				  <li><a href="publications.html" >Publications</a></li>
-    				  <li><a href="blog.html" >Blog</a></li>
-    				  <li><a href="contact.html" data-value="con">Contact</a></li>
-    				</ul>
-    			</div><!-- /.navbar-collapse -->
-    		</div><!-- /.container-fluid -->
-    	</nav>
-    	<!-- End Nav bar-->
-    	<!-- Start header-->
-    	<header id="hom">
-    		<div class="banner">
-    			<div class="banner_overlay">
-    				<div class="container-fluid">
-    					<!-- carusel-->
-    					<div id="carousel-header" class="carousel slide" data-ride="carousel" data-interval="7000">
-    						<!-- Wrapper for slides -->
-    						<div class="carousel-inner" role="listbox">
-    							<div class="item active first">
-    								<h1>Nick Kaimakis</h1>
-    								<h2 class="wow fadeInUp" data-wow-delay="1.5s">Developer</h2>
-    								<p class="wow fadeInUp" data-wow-delay="1.5s">Studying Computer Science and Business Administration at the University of Southern California</p>
-    							</div>
-    							<div class="item">
-    								<h1>adventures only happen to </h1>
-    								<h2>the adventurous</h2>
-    							</div>
-    							<div class="item">
-    								<h1>Chicago native</h1>
-    								<h2>Los Angeles resident</h2>
-    							</div>
-    							<!-- carosel Controls -->
-    							<a class="left carousel-control" href="#carousel-header" role="button" data-slide="prev">
+					<li><a href="publications.html">Publications</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html" data-value="con">Contact</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<!-- End Nav bar-->
+	<!-- Start header-->
+	<header id="hom">
+		<div class="banner">
+			<div class="banner_overlay">
+				<div class="container-fluid">
+					<!-- carusel-->
+					<div id="carousel-header" class="carousel slide" data-ride="carousel" data-interval="7000">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active first">
+								<h1>Nick Kaimakis</h1>
+								<h2 class="wow fadeInUp" data-wow-delay="1.5s">Developer</h2>
+								<p class="wow fadeInUp" data-wow-delay="1.5s">Studying Computer Science and Business Administration at the University of Southern California</p>
+							</div>
+							<div class="item">
+								<h1>adventures only happen to </h1>
+								<h2>the adventurous</h2>
+							</div>
+							<div class="item">
+								<h1>Chicago native</h1>
+								<h2>Los Angeles resident</h2>
+							</div>
+							<!-- carosel Controls -->
+							<a class="left carousel-control" href="#carousel-header" role="button" data-slide="prev">
     								<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
     								<span class="sr-only">Previous</span>
     							</a>
-    							<a class="right carousel-control" href="#carousel-header" role="button" data-slide="next">
+							<a class="right carousel-control" href="#carousel-header" role="button" data-slide="next">
     								<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
     								<span class="sr-only">Next</span>
     							</a>
-    						</div>
-    					</div>
-    					<div class="my_link">
-    						<a href="https://www.linkedin.com/in/nick-kaimakis-17874a124/" target="_blank" class="wow fadeInUp"  data-wow-delay="3.2s" id="linked">
-    							<i class="fa fa-linkedin fa-2x link "aria-hidden="true"></i></a>
-    							<a href="https://github.com/nkaimakis" target="_blank" class="github wow fadeInUp"  data-wow-delay="3.4s" >
-    								<i class="fa fa-github fa-2x link "aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="my_link">
+						<a href="https://www.linkedin.com/in/nick-kaimakis-17874a124/" target="_blank" class="wow fadeInUp" data-wow-delay="3.2s" id="linked">
+    							<i class="fa fa-linkedin fa-2x link"aria-hidden="true"></i></a>
+						<a href="https://github.com/nkaimakis" target="_blank" class="github wow fadeInUp" data-wow-delay="3.4s">
+    								<i class="fa fa-github fa-2x link"aria-hidden="true"></i>
     							</a>
-    						</div>
-    						<!-- End of carusel-->
-    						<div class="download_cv">
-    							<div class="download glyphicon glyphicon-download-alt">
-    								<a href="resume.pdf" target="_blank">
-    									<h4>resume</h4>
-    								</a>
-    							</div>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    		</header>
-    		<!-- End header-->
-    		<!-- Start Skills-->
-    		<section class="skills" id="ski">
-    			<div class="socila ">
-    				<a href="https://www.linkedin.com/in/nick-kaimakis-17874a124/" target="_blank">
-    					<i class="fa fa-linkedin fa-3x link  wow slideInLeft" aria-hidden="true"></i>
-    				</a>
-    				<a target="_blank" href="https://www.facebook.com/nick.kaimakis">
-    					<i class="fa fa-facebook fa-3x face wow slideInLeft" data-wow-delay="1s" aria-hidden="true"></i></a>
-    				</div>
-    				<div class="container">
-    					<div class="row">
-    						<div class="col-sm-6 tec_skills wow fadeIn">
-    							<h1>About me </h1>
+					</div>
+					<!-- End of carusel-->
+					<div class="download_cv">
+						<div class="download glyphicon glyphicon-download-alt">
+							<a href="resume.pdf" target="_blank">
+								<h4>resume</h4>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- End header-->
+	<!-- Start Skills-->
+	<section class="skills" id="ski">
+		<div class="socila">
+			<a href="https://www.linkedin.com/in/nick-kaimakis-17874a124/" target="_blank">
+							<i class="fa fa-linkedin fa-3x link  wow slideInLeft" aria-hidden="true"></i>
+						</a>
+			<a target="_blank" href="https://www.facebook.com/nick.kaimakis">
+							<i class="fa fa-facebook fa-3x face wow slideInLeft" data-wow-delay="1s" aria-hidden="true"></i></a>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 tec_skills wow fadeIn">
+					<h1>About me </h1>
 
-    							<div class="skill_image"><img class="img-responsive" src="image/santaCruz.jpg" alt="my_photo">
-    							</div>
-    						</div>
-    						<div class="col-sm-6 my_skills">
-    							<div class="row">
-    								<div class="icon col-md-6 col-xs-6 wow fadeIn">
-    									<i class="fa fa-paint-brush fa-lg" aria-hidden="true"></i>
-    									<div class="clear"></div>
-    									<h3>Designer</h3>
-    								</div>
-    								<div class="icon col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.2s">
-    									<i class="fa fa-code fa-lg" aria-hidden="true"></i>
-    									<div class="clear"></div>
-    									<h3>Developer</h3>
-    								</div>
-    								<div class="icon col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.4s">
-    									<i class="fa fa-quote-left fa-lg" aria-hidden="true"></i>
-    									<div class="clear"></div>
-    									<h3>Project Manager</h3>
-    								</div>
-    								<div class="icon col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.8s" >
-    									<i class="fa fa-diamond fa-lg" aria-hidden="true"></i>
-    									<div class="clear"></div>
-    									<h3>Creator Innovator</h3>
-    								</div></div>
-    								<div class="about_me wow fadeIn">
-    									<h3>Current focus : <span>research, startups, natural language processing, virtual learning, web design, public speaking, problem solving, adventure travel</span></h3>
-    								</div>
-    							</div>
-    						</div>
-    						<div class="Knowledge">
-    							<div class="row">
-    								<div class="col-lg-12">
-    									<h2>skills</h2>
-    									<p>I am a quick learner, and I am passionate about learning anything and everything.</p>
-    								</div>
-    								<div class="col-sm-6 language wow fadeIn">
-    									<h3>languages</h3>
-    									<div class="col-sm-4 col-xs-6">
-    										<div id="graph_1" class="red_data" data-fillColor="#de2407 data-dimension="100" data-width="16"
-    										data-fontsize="18" data-percent="74" data-replacePercentageByText="" data-fgcolor="#de2407"></div>
-    									</div>
-    									<div class="col-sm-4 col-xs-6">
-    										<div id="graph_2" class="red_data" data-dimension="100" data-width="16"
-    										data-fontsize="18" data-percent="86" data-fgcolor="#de2407"></div>
-    									</div>
-    									<div class="col-sm-4 col-xs-6">
-    										<div id="graph_3" class="red_data" data-dimension="100" data-width="16"
-    										data-fontsize="18" data-percent="92" data-fgcolor="#de2407"></div>
-    									</div>
-    									<div class="col-sm-4 col-xs-6">
-    										<div id="graph_4" class="red_data" data-dimension="100" data-width="16"
-    										data-fontsize="18" data-percent="82" data-fgcolor="#de2407"></div>
-    									</div>
-    									<div class="col-sm-4 col-xs-6">
-    										<div id="graph_5" class="red_data" data-dimension="100" data-width="16"
-    										data-fontsize="18" data-percent="90" data-fgcolor="#de2407"></div>
-    									</div>
-    									<div class="col-sm-4 col-xs-6">
-    										<div id="graph_6" class="red_data" data-dimension="100" data-width="16"
-    										data-fontsize="18" data-percent="85" data-fgcolor="#de2407"></div>
-    									</div>
-    								</div>
-    								<div class="col-sm-6 recognition wow fadeInRight">
-    									<div class="my_recognition">
-    										<h3>affiliation</h3>
-    										<div class="reco_list">
-    											<i class="fa fa-university fa-2x" aria-hidden="true"></i>
-    											<h4>university of southern california</h4>
-    											<p>B.S. Computer Science and Business Administration | Cumulative GPA: 3.5</p>
-    											<br>
-    										</div>
-    										<div class="reco_list">
-    											<i class="fa  fa-suitcase fa-2x" aria-hidden="true"></i>
-    											<h4>institute for creative technologies</h4>
-    											<p>oct.2016 - Current | Implemented methods of natural language processing to provide live responses to questions</p>
-    										</div>
-    										<div class="reco_list">
-    											<i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i>
-    											<h4>usc leonard davis school of gerontology</h4>
-    											<p>aug.2016 - aug.2016 | Redesigned outdated code to improve functionality and user experience</p>									</div>
-    											<div class="reco_list">
-    												<i class="fa fa-map-signs fa-2x" aria-hidden="true"></i>
-    												<h4>iD Tech</h4>
-    												<p>may.2016 - aug.2016 | Taught children from age 10 to 17 python programming as a lead instructor
-    												</p>
-    											</div>
-    										</div>
-    									</div>
-    								</div>
-    								<div class="col-sm-6">
-    									<div class="software wow fadeInLeft">
-    										<h3>software</h3>
-    										<p> Sketch</p>
-    										<div class="progress">
-    											<div class="progress-bar progress-bar-info progress-bar-striped sketch" role="progressbar" aria-valuenow="730" aria-valuemin="0" style="width: 73%"> </div>
-    										</div>
-    										<p> WordPress</p>
-    										<div class="progress">
-    											<div class="progress-bar progress-bar-success progress-bar-striped progress word" role="progressbar" aria-valuenow="70" aria-valuemin="0" style="width: 70%"></div>
-    										</div>
-    										<p> JavaScript Web Libraries (React, Node, Angular)</p>
-    										<div class="progress">
-    											<div class="progress-bar progress-bar-warning progress-bar-striped js_libraries" role="progressbar" aria-valuenow="78" aria-valuemin="0" style="width: 78%"> </div>
-    										</div>
-    										<p> InVision</p>
-    										<div class="progress">
-    											<div class="progress-bar progress-bar-danger progress-bar-striped invision" role="progressbar" aria-valuenow="87" aria-valuemin="0" style="width: 87%"> </div>
-    										</div>
-    										<p> Git / GitHub</p>
-    										<div class="progress">
-    											<div class="progress-bar progress-bar-info progress-bar-striped git" role="progressbar" aria-valuenow="92" aria-valuemin="0" style="width: 92%"> </div>
-    										</div>
-    									</div>
-    								</div>
+					<div class="skill_image"><img class="img-responsive" src="image/santaCruz.jpg" alt="my_photo">
+					</div>
+				</div>
+				<div class="col-sm-6 my_skills">
+					<div class="row">
+						<div class="icon col-md-6 col-xs-6 wow fadeIn">
+							<i class="fa fa-paint-brush fa-lg" aria-hidden="true"></i>
+							<div class="clear"></div>
+							<h3>Designer</h3>
+						</div>
+						<div class="icon col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.2s">
+							<i class="fa fa-code fa-lg" aria-hidden="true"></i>
+							<div class="clear"></div>
+							<h3>Developer</h3>
+						</div>
+						<div class="icon col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.4s">
+							<i class="fa fa-quote-left fa-lg" aria-hidden="true"></i>
+							<div class="clear"></div>
+							<h3>Leader</h3>
+						</div>
+						<div class="icon col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.8s">
+							<i class="fa fa-diamond fa-lg" aria-hidden="true"></i>
+							<div class="clear"></div>
+							<h3>Innovator</h3>
+						</div>
+					</div>
+					<div class="about_me wow fadeIn">
+						<h3>Current Interests : <span>cryptoassets, blockchain applications, startups + growth engineering, machine learning, mobile + web development, design</span></h3>
+					</div>
+				</div>
+			</div>
+			<div class="Knowledge">
+				<div class="row">
+					<div class="col-sm-6 language wow fadeIn">
+						<h3>languages</h3>
+						<div class="col-sm-4 col-xs-6">
+							<div id="graph_1" class="red_data" data-fillColor="#0000000" data-dimension="100" data-width="16" data-fontsize="18" data-replacePercentageByText="" data-percent="74" data-fgcolor="#de2407"></div>
+						</div>
+						<div class="col-sm-4 col-xs-6">
+							<div id="graph_2" class="red_data" data-fillColor="#0000000" data-dimension="100" data-width="16" data-fontsize="18" data-replacePercentageByText="" data-percent="86" data-fgcolor="#de2407"></div>
+						</div>
+						<div class="col-sm-4 col-xs-6">
+							<div id="graph_3" class="red_data" data-fillColor="#0000000" data-dimension="100" data-width="16" data-fontsize="18" data-replacePercentageByText="" data-percent="92" data-fgcolor="#de2407"></div>
+						</div>
+						<div class="col-sm-4 col-xs-6">
+							<div id="graph_4" class="red_data" data-dimension="100" data-width="16" data-fontsize="18" data-percent="82" data-replacePercentageByText="" data-fgcolor="#de2407"></div>
+						</div>
+						<div class="col-sm-4 col-xs-6">
+							<div id="graph_5" class="red_data" data-dimension="100" data-width="16" data-fontsize="18" data-percent="90" data-replacePercentageByText="" data-fgcolor="#de2407"></div>
+						</div>
+						<div class="col-sm-4 col-xs-6">
+							<div id="graph_6" class="red_data" data-dimension="100" data-width="16" data-fontsize="18" data-percent="85" data-replacePercentageByText="" data-fgcolor="#de2407"></div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="software wow fadeInRight">
+							<h3>software</h3>
+							<p> Wireframing (Sketch, InVision, Xcode storyboards)</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info progress-bar-striped sketch" role="progressbar" aria-valuenow="96" aria-valuemin="0" style="width: 93%"> </div>
+							</div>
+							<p> WordPress</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped progress word" role="progressbar" aria-valuenow="78" aria-valuemin="0" style="width: 82%"></div>
+							</div>
+							<p> JavaScript Web Libraries (React, Node, Angular)</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning progress-bar-striped js_libraries" role="progressbar" aria-valuenow="70" aria-valuemin="0" style="width: 73%"> </div>
+							</div>
+							<p> Adobe Photoshop, InDesign, Illustrator</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger progress-bar-striped invision" role="progressbar" aria-valuenow="65" aria-valuemin="0" style="width: 65%"> </div>
+							</div>
+							<p> Git / GitHub</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info progress-bar-striped git" role="progressbar" aria-valuenow="92" aria-valuemin="0" style="width: 92%"> </div>
+							</div>
+							<p> Machine Learning (Python)</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped sketch" role="progressbar" aria-valuenow="74" aria-valuemin="0" style="width: 80%"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="other">
+			<div class="other_overlay">
+				<div class="container">
+					<div class="servic_bac">
+						<h2>activities</h2>
+						<div class="row">
+							<div class="col-sm-2 col-xs-6 my_act wow fadeInUp">
+								<img src="image/17d851c.png" alt="logo">
+								<h4>studying</h4>
+							</div>
+							<div class="col-sm-2 col-xs-6 my_act wow fadeInUp" data-wow-delay="0.6s">
+								<img src="image/Logo_Square.jpeg" alt="logo">
+								<h4>Engineers Without Borders</h4>
+							</div>
+							<div class="col-sm-4 col-xs-4 my_act wow fadeInUp" data-wow-delay="1.2s">
+								<img src="image/SWE_GEAR_RGB.jpg" alt="logo" id="main_img">
+								<h4>Society of Women Engineers</h4>
+							</div>
+							<div class="col-sm-2 col-xs-4 my_act wow fadeInUp" data-wow-delay="1.8s">
+								<img src="image/Guide-1.gif" alt="logo">
+								<h4>SC Outfitters Guide</h4>
+							</div>
+							<div class="col-sm-2 col-xs-4 my_act wow fadeInUp" data-wow-delay="1.9s">
+								<img src="image/CmOFRizUcAEVFq1.png" alt="logo">
+								<h4>LavaLab</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- work experience-->
+	<section class="education" id="exp">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 wow fadeIn">
+					<h1>Experience</h1>
+				</div>
+				<div class="col-sm-12 tes">
+					<div class="col-sm-3 my_edu wow fadeIn">
+						<h2>Google</h2>
+						<p>may.2018 - aug.2018<br>Boston, MA</p>
+					</div>
+					<div class="col-sm-9 job_des wow fadeIn">
+						<h3>Software Engineering Intern</h3>
+						<p>
+							- Android mobile development with a front-end focus
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 tes">
+					<div class="col-sm-3 my_edu wow fadeIn">
+						<h2>Fund3 (Crypto)</h2>
+						<p>dec.2017 - may.2018<br>Santa Monica, CA</p>
+					</div>
+					<div class="col-sm-9 job_des wow fadeIn">
+						<h3>Software Developer and Growth Engineer</h3>
+						<p>
+							- Business: designed product roadmaps, managed investor relations, handled corporate responsabilities for crypto exchange accounts<br> -Technical: researched and developed machine learning models for proprietary trading of cryptoassets, redesigned
+							logos, contributed to web development of landing page and platform
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 tes">
+					<div class="col-sm-3 my_edu wow fadeIn">
+						<h2>USC Institute for Creative Technologies</h2>
+						<p>oct.2016 - dec.2017</br>Playa Vista, CA</p>
+					</div>
+					<div class="col-sm-9 job_des wow fadeIn">
+						<h3>Research Developer</h3>
+						<p>
+							- Utilized design and programming skills to create effective interactive software to educate youth<br> - Applied mentorship and personal experience to develop content to benefit potential STEM students<br> - Implemented a classifier using modern
+							natural language processing techniques (bag of words)
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-12 tes wow fadeIn">
+					<div class="col-sm-3 my_edu">
+						<h2>Leonard Davis School of Gerontology</h2>
+						<p>aug.2016 - oct.2016<br>Los Angeles, CA</p>
+					</div>
+					<div class="col-sm-9 job_des">
+						<h3>Full Stack Web Developer</h3>
+						<p>- Redesigned outdated code to improve functionality and user experience<br> - Created and maintained websites using HTML, CSS, Javascript, and Java</p>
+					</div>
+				</div>
+				<div class="col-sm-12 tes wow fadeIn">
+					<div class="col-sm-3 my_edu">
+						<h2>ID Tech Camps</h2>
+						<p>may.2016 - aug.2016<br>Lake Forest, IL</p>
+					</div>
+					<div class="col-sm-9 job_des">
+						<h3>Lead Instructor (Python)</h3>
+						<p>- Taught children ages 10-17 Python programming <br>- Provided leadership to a team of instructors</p>
+					</div>
+				</div>
+				<div class="col-sm-12 tes wow fadeIn">
+					<div class="col-sm-3 my_edu">
+						<h2>USC Marshall School of Business</h2>
+						<p>aug.2015 - may.2016<br>Los Angeles, CA</p>
+					</div>
+					<div class="col-sm-9 job_des">
+						<h3>it technician</h3>
+						<p>- Troubleshooting hardware, software, and operating system issues <br> - Incessantly adapting and problem solving in a team environment</p>
+					</div>
+				</div>
+				<div class="col-sm-12 wow fadeIn">
+					<h1>education</h1>
+					<p>I am currently completing the third year of my undergraduate degree in Computer Science and Business Administration at the University of Southern California.</p>
+				</div>
+				<div class="col-sm-3 my_edu wow fadeIn">
+					<h2> 2015 - 2019</h2>
+					<h4>CSBA</h4>
+					<p> University of Southern California </p>
+				</div>
+				<div class="col-sm-9 job_des wow fadeIn">
+					<h3>B.S. Computer Science and Business Administration (May 2019)</h3>
+					<p>
+						HIGHLIGHT COURSES 2018: Advanced Mobile App Development, Digital Tools for Design, Business Finance, Microeconomics, Macroeconomics, Marketing Fundamentals<br><br> HIGHLIGHT COURSES 2017: Web Development, Building a High Tech Startup, Artificial
+						Intelligence, Software Engineering, Seminar in Entrepreneurship, Accounting<br><br> HIGHLIGHT COURSES 2016: Data Structures and Object Oriented Design, Discrete Methods in Computer Science, Database Systems for Analytics, Principles of Software
+						Development, Intro to Algorithms and Theory of Computing<br><br> HIGHLIGHT COURSES 2015: Intro to Embedded Systems, Intro to Programming, Linear Algebra and Differential Equations, Organizational Behavior, International Relations
+					</p>
+				</div>
+			</div>
+	</section>
+	<!-- end education-->
+	<!-- contact-->
+	<section class="contact" id="con">
+		<div class="container wow fadeIn">
+			<div class="row">
+				<p>Have a project you'd like to discuss?</p>
+				<i class="fa fa-headphones fa-6x" aria-hidden="true"></i>
+				<h3>Nick Kaimakis</h3>
+				<p> Email : kaimakis@usc.edu</p>
+			</div>
+		</div>
+	</section>
+	<!-- footer-->
+	<footer>
+		<div class="foot">
+			<p>Copyright &copy; 2018 <span>nick kaimakis</span></p>
+		</div>
+	</footer>
+	<!-- Loading screen -->
+	<div class="loading">
+		<div class='load_overay'>
+			<div class="spinner">
+				<div class="double-bounce1"></div>
+				<div class="double-bounce2"></div>
+			</div>
+		</div>
+	</div>
+</body>
 
-    								<div class="col-sm-6 independent wow fadeIn">
-    									<h3>Independent Interests</h3>
-    									<p><i class="fa fa-plane" aria-hidden="true"></i>
-    									Travel</p>
-    									<p><i class="fa fa-check-square-o" aria-hidden="true"></i>
-    									Entrepreneurship</p>
-    									<p><i class="fa fa-heartbeat" aria-hidden="true"></i>
-    									Health and wellness	</p>
-    									<p><i class="fa fa-bicycle" aria-hidden="true"></i>
-    									Nature</p>
-    									<p><i class="fa fa-book" aria-hidden="true"></i>
-    									Learning</p>
-    								</div>
-    							</div>
-    						</div>
-    						<div class="other">
-    							<div class="other_overlay">
-    								<div class="container">
-    									<div class="servic_bac">
-    										<h2>activities</h2>
-    										<div class="row">
-    											<div class="col-sm-2 col-xs-6 my_act wow fadeInUp">
-    												<img src="image/17d851c.png" alt="logo">
-    												<h4>studying</h4>
-    											</div>
-    											<div class="col-sm-2 col-xs-6 my_act wow fadeInUp" data-wow-delay="0.6s">
-    												<img src="image/Logo_Square.jpeg" alt="logo">
-    												<h4>Engineers Without Borders</h4>
-    											</div>
-    											<div class="col-sm-4 col-xs-4 my_act wow fadeInUp" data-wow-delay="1.2s">
-    												<img src="image/SWE_GEAR_RGB.jpg" alt="logo" id="main_img">
-    												<h4>Society of Women Engineers</h4>
-    											</div>
-    											<div class="col-sm-2 col-xs-4 my_act wow fadeInUp" data-wow-delay="1.8s">
-    												<img src="image/Guide-1.gif" alt="logo">
-    												<h4>SC Outfitters Guide</h4>
-    											</div>
-    											<div class="col-sm-2 col-xs-4 my_act wow fadeInUp" data-wow-delay="1.9s">
-    												<img src="image/CmOFRizUcAEVFq1.png" alt="logo">
-    												<h4>LavaLab</h4>
-    											</div>
-    										</div>
-    									</div>
-    								</div>
-    							</div>
-    						</div>
-    					</section>
-    					<!-- end of skill-->
-    					<!-- education-->
-    					<section class="education" id="exp">
-    						<div class="container">
-    							<div class="row">
-    								<div class="col-lg-12 wow fadeIn">
-    									<h1>Work Experience</h1>
-    								</div>
-    								<div class="col-sm-12 tes">
-    									<div class="col-sm-3 my_edu wow fadeIn">
-    										<h2><span>oct</span>.2016 - Current</h2>
-    										<p>USC Institute for Creative Technologies</p>
-    									</div>
-    									<div class="col-sm-9 job_des wow fadeIn">
-    										<h3>Research Developer</h3>
-    										<p>
-    											- Utilized design and programming skills to create effective interactive software to educate youth<br>
-    											- Applied mentorship and personal experience to develop content to benefit potential STEM students<br>
-    											- Implemented a classifier using modern natural language processing techniques (bag of words)
-    										</p>
-    									</div>
-    								</div>
-    								<div class="col-sm-12 tes wow fadeIn">
-    									<div class="col-sm-3 my_edu">
-    										<h2><span>aug</span>.2016 - <span>oct</span>.2016</h2>
-    										<p>Leonard Davis School of Gerontology</p>
-    									</div>
-    									<div class="col-sm-9 job_des">
-    										<h3>Full Stack Web Developer</h3>
-    										<p>- Redesigned outdated code to improve functionality and user experience<br>
-    										- Created and maintained websites using HTML, CSS, Javascript, and Java</p>
-    									</div>
-    								</div>
-    								<div class="col-sm-12 tes wow fadeIn">
-    									<div class="col-sm-3 my_edu">
-    										<h2><span>may</span>.2016 - <span>aug</span>.2016</h2>
-    										<p>ID Tech Camps</p>
-    									</div>
-    									<div class="col-sm-9 job_des">
-    										<h3>Lead Instructor (Python)</h3>
-    										<p>- Taught children ages 10-17 Python programming <br>- Provided leadership to a team of instructors</p>
-    									</div>
-    								</div>
-    								<div class="col-sm-12 tes wow fadeIn">
-    									<div class="col-sm-3 my_edu">
-    										<h2><span>aug</span>.2015 - <span>may</span>.2016</h2>
-    										<p>USC Marshall School of Business</p>
-    									</div>
-    									<div class="col-sm-9 job_des">
-    										<h3>it technician</h3>
-    										<p>- Troubleshooting hardware, software, and operating system issues <br> - Incessantly adapting and problem solving in a team environment</p>
-    									</div>
-    								</div>
-    								<div class="col-sm-12 wow fadeIn">
-    									<h1>education</h1>
-    									<p>I am currently completing the third year of my undergraduate degree in Computer Science and Business Administration at the University of Southern California.</p>
-    								</div>
-    								<div class="col-sm-3 my_edu wow fadeIn">
-    									<h2> 2015 - 2019</h2>
-    									<h4>CSBA</h4>
-    									<p> University of Southern California </p>
-    								</div>
-    								<div class="col-sm-9 job_des wow fadeIn">
-    									<h3>B.S. Computer Science and Business Administration (May 2019)</h3>
-    									<p>
-												HIGHLIGHT COURSES 2018: Advanced Mobile App Development, Digital Tools for Design, Business Finance, Microeconomics, Macroeconomics, Marketing Fundamentals<br><br>
-    										HIGHLIGHT COURSES 2017: Web Development, Building a High Tech Startup, Artificial Intelligence, Software Engineering, Seminar in Entrepreneurship, Accounting<br><br>
-    										HIGHLIGHT COURSES 2016: Data Structures and Object Oriented Design, Discrete Methods in Computer Science, Database Systems for Analytics, Principles of Software Development, Intro to Algorithms and Theory of Computing<br><br>
-    										HIGHLIGHT COURSES 2015: Intro to Embedded Systems, Intro to Programming, Linear Algebra and Differential Equations, Organizational Behavior, International Relations
-
-    									</p>
-    								</div>
-    							</div>
-    						</div>
-    													<!-- <div class="testimonials">
-    														<div class="testimonials_overlay">
-    															<div class="container">
-    																<div class="test_back wow fadeInLeft">
-    																	<h1>Testimonials</h1>
-    																	 Testimonials carosel
-    																	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    																		 Indicators
-    																		<ol class="carousel-indicators">
-    																			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    																			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    																			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    																		</ol>
-    																		 Wrapper for slides
-    																		<div class="carousel-inner" role="listbox">
-    																			<div class="item active">
-    																				<div class="col-sm-3">
-    																					<div class="client_img"></div></div>
-    																					<div class="col-sm-9">
-    																						<div class="client_test">
-    																							<p>Nick Kaimakis is an individual who has a strong sense of concern and responsibility that is somewhat rare, especially in someone so young. He is an excellent role model, and as a leader elevates the behavior and performance of those around him.</p>
-    																							<h4>Gary Baker, English teacher at Wauconda High School</h4>
-    																						</div>
-    																					</div>
-    																				</div>
-    																				<div class="item">
-    																					<div class="col-sm-3">
-    																						<div class="client_img"></div></div>
-    																						<div class="col-sm-9">
-    																							<div class="client_test">
-    																								<p>Nick Kaimakis is an individual who has a strong sense of concern and responsibility that is somewhat rare, especially in someone so young. He is an excellent role model, and as a leader elevates the behavior and performance of those around him.</p>						<h4>Gary Baker, English teacher at Wauconda High School</h4>
-    																							</div>
-    																						</div>
-    																					</div>
-    																					<div class="item">
-    																						<div class="col-sm-3">
-    																							<div class="client_img"></div></div>
-    																							<div class="col-sm-9">
-    																								<div class="client_test">
-    																									<p>Nick Kaimakis is an individual who has a strong sense of concern and responsibility that is somewhat rare, especially in someone so young. He is an excellent role model, and as a leader elevates the behavior and performance of those around him.</p>					<h4>Gary Baker, English teacher at Wauconda High School</h4>
-    																								</div>
-    																							</div>
-    																						</div>
-    																					</div>
-    																				</div>
-    																			</div>
-    																		</div>
-    																	</div>
-    																</div>
-    															</section> -->
-    															<!-- project--> <!--
-    															<section class="project" id="pro">
-    																<div class="container ">
-    																	<div class="row">
-    																		<div class="col-lg-12 wow fadeIn">
-    																			<h1>My Projects</h1>
-    																			<p>Check out some of the past projects I've been involved with:</p>
-    																		</div>
-    																		<div class="project_list col-lg-12 wow fadeIn">
-    																			<ul class="list-unstyled">
-    																				<li data-filter="all">all projects</li>
-    																				<li data-filter=".scrabble">scrabble</li>
-    																				<li data-filter=".app">app</li>
-    																				<li data-filter=".nlp">NLP</li>
-    																			</ul>
-    																		</div>
-    																		<div class="pro_image">
-    																			<div class="mix app col-sm-4 my_pro wow fadeIn">
-    																				<div class="box">
-    																					<div class="box-content">
-    																						<h4 class="title">Web Application</h4>
-    																						<p class="description">
-    																						Developed a multithreaded modern investment interface (Java, HTML/CSS, JavaScript) </p>
-    																						<br>
-    																					</div>
-    																					<img src="image/nlp.jpg" alt="project">
-    																				</div>
-    																			</div>
-    																			<div class="mix scrabble col-sm-4 my_pro wow fadeIn">
-    																				<div class="box">
-    																					<div class="box-content">
-    																						<h4 class="title">scrabble game </h4>
-    																						<p class="description">
-    																						Developed class inheritance and file processing back-end, and created a GUI for Scrabble front-end (C++)   </p>
-    																					</div>
-    																					<img src="image/scrabble.jpg" alt="project">
-    																				</div>
-    																			</div>
-    																			<div class="mix nlp col-sm-4 my_pro wow fadeIn">
-    																				<div class="box">
-    																					<div class="box-content">
-    																						<h4 class="title">NLP/State Systems</h4>
-    																						<p class="description">
-    																						Implemented virtual human chatbot using natural language processing and machine learning based on user input (Python)</p>
-    																					</div>
-    																					<img src="image/nlpStock.jpg" alt="project">
-    																				</div>
-    																			</div>
-    																		</div>
-    																	</div> -->
-                           <!-- <div class="col-md-4 customers wow fadeIn">
-                               <h1>My Aspirations</h1>
-                               <p>I hope to create my own startup with the tools that
-                                  I have developed in computer science, design, and business.</p>
-                              </div>
-                              <div class="col-md-8 logo">
-                                  <div class="col-sm-3 col-xs-6">
-                                     <img src="image/usc.jpg" alt="logo">
-                                 </div>
-                                 <div class="col-sm-3 col-xs-6">
-                                     <img src="image/USC_Davis_School_of_Gerontology.jpg" alt="logo">
-                                 </div>
-                                 <div class="col-sm-3 col-xs-6">
-                                     <img src="image/AAEAAQAAAAAAAAhrAAAAJGFhZWZkZmMwLTQ0ZjEtNGNjZi1hMjM0LTJiZTU0YjMzMTZlOA.png" alt="logo">
-                                 </div>
-                                 <div class="col-sm-3 col-xs-6">
-                                     <img src="image/34ec195.png" alt="logo">
-                                 </div>
-                             </div>
-                         </div> -->
-                     </section>
-                     <!-- contact-->
-                     <section class="contact" id="con">
-                     	<div class="container wow fadeIn ">
-                     		<div class="row">
-                     			<p>Have a project you'd like to discuss?</p>
-                     			<i class="fa fa-headphones fa-6x" aria-hidden="true"></i>
-                     			<h3>Nick Kaimakis</h3>
-                     			<p> Email : kaimakis@usc.edu</p>
-                     		</div>
-                     	</div>
-                     </section>
-                     <!-- footer-->
-                     <footer>
-                     	<div class="foot">
-                     		<p>Copyright &copy; 2017 <span>nick kaimakis</span></p>
-                     	</div>
-                     </footer>
-                     <!-- Loading screen -->
-                     <div class="loading">
-                     	<div class='load_overay'>
-                     		<div class="spinner">
-                     			<div class="double-bounce1"></div>
-                     			<div class="double-bounce2"></div>
-                     		</div>
-                     	</div>
-                     </div>
-                 </body>
-                 </html>
+</html>
